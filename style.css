@@ -1,0 +1,298 @@
+
+*{
+    margin-top: 0;
+    margin-left: 0px;
+    margin-right: 0;
+}
+.perfil{
+    width: 300px;
+    height: 500px;
+    border-style: ridge;
+    border-color: #f75959;
+    float: left;
+    background-color: white;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 1px;
+    padding-left:65px;
+    background: white;
+    
+}
+#hello{
+    width: 300px;
+}
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f75959;
+    list-style: none;
+    height: 43px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px;
+    text-align: center;
+    position: relative;
+}
+.menu ul li { display: inline; }
+
+.menu ul li a {
+    padding: 20px 13px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+    height: 0px;
+    justify-content: end;
+}
+.menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:5px solid #EA0000;
+}
+
+.menu section li a:hover {
+    background-color:purple;
+    border-bottom:5px solid #EA0000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+.divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #EA0000;
+    border-radius:10px;
+    width: 266px;
+    height: 36px;
+    margin-left: 471px;
+    margin-top: 3px;
+    margin-right: 40px;
+}
+
+.txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+}
+.btnBusca{
+    border:none;
+    float:left;
+    height:36px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#EA0000;
+} 
+#grande{
+    flex-direction: column;
+    border: red;
+    width: 300px;
+    height: 500px;
+    border-style: ridge;   
+    border-radius: 2% ;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.imagem.perfil{
+    position: absolute;
+    width: 184px;
+    height: 149px;
+        padding-left: 56px;
+    padding-bottom: 80px;
+    padding-top: 154px;
+    padding-right: 61px;
+}
+.perfil2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 220px;
+    left: 150px;
+    padding-bottom: 120px;
+}
+.interperfil2{
+    padding-bottom: 26px;
+    padding-left: 0%;
+    padding-right: 3px;
+    
+}
+
+.internaperfil2 img{    
+    width: 50px;
+    height: 50px;
+    padding-bottom: 1px;
+    padding-left:65px;
+}
+.internaperfil{
+    display: flex;
+    justify-content: center;
+    
+}
+.style{
+    padding-bottom: 265px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px;
+    padding: 9px;
+    font-weight: bolder;
+}
+style p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    padding-left: 21px;
+    margin: 15px;
+    font-size: medium;
+    
+}
+.descrição{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin: 15px;
+    color: #2F4F4F;
+    padding-left: 25px;
+    background: white;
+}
+.internaperfil img{
+    position: relative;
+    width: 300px;
+    height: 220px;
+    left: 150px;
+    padding-bottom: 120px;
+    padding: 0%;
+}
+.interna3{
+    width: 300px;
+    height: 300px;
+    border-style: ridge;
+    border-radius: 3%;
+    border-color: #f75959;
+    background-color: white;
+    margin-left: 190px;
+    margin-top: 20PX;
+    
+}
+.espaçamento{
+    width: 10px;
+    height: 10px;
+    
+}
+.Notificações{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding-left: 50px;
+    background: white;
+}
+.noti{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2F4F4F;
+    font-weight: 400;
+    padding-left: 10px;
+    align-items: center;
+    padding-right: 10px;
+    background: white;
+    
+}
+#interna4{
+    display: flex;
+    justify-content: center;
+    border: red;
+    border-radius: 3%;
+    border-style: ridge;
+    width: 300px;
+    height: 200px;
+    background: white;
+}
+.interna4 img{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+.n{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 0px;
+    background: white;
+}
+.olaf{
+    width: 127px;
+    height: 85px;
+    padding-left: 90px;
+    padding: 0%;
+}
+.espaçamento3{
+    width: 10px;
+    height: 10px;
+    border-style: ridge;
+}
+.coraçao{
+    width: 30%;
+    height: 30%;
+}
+.img_comida{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+footer a img {
+    width: 30px;
+    height: 30px;
+    padding-top: 250px;
+}
+
+.caixa_texto{
+    display: block;
+    border: 2px solid red;
+    border-radius: 10px;   
+    border-right: 40px;  
+    padding: 5px; 
+}
+.btn_comentar{
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+}
+
+#matheus.grande{
+    flex-direction: column;
+    border: red;
+    width: 300px;
+    height: 500px;
+    border-style: ridge;   
+    border-radius: 2% ;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.style{
+    background: white;
+}
+.divExterna {
+    height: 600px;
+    width: 600px;
+    border: solid 2px black;
+    display: flex;
+    /* align-items: center; */
+ /* justify-content: space-around; */
+}
+.banner {
+    width: 80px;
+    height: 80px;
+}
+
